@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/Terminal/Terminal.qml</file>
+        <file>qml/Properties/Properties.qml</file>
+        <file>qml/ButtonsModelList/ButtonsModelList.qml</file>
+        <file>qml/ButtonsModelList/CreationDialog/CreationDialog.qml</file>
+        <file>qml/ButtonsModelList/CreationDialog/UserButton/UserButton.qml</file>
+    </qresource>
+</RCC>

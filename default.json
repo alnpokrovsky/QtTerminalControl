@@ -1,0 +1,129 @@
+{
+    "buttons": [
+        {
+            "command": "G1 P",
+            "parameter": true,
+            "title": "Движение"
+        },
+        {
+            "command": "M10",
+            "parameter": false,
+            "title": "Закрыть транзистор"
+        },
+        {
+            "command": "M11",
+            "parameter": false,
+            "title": "Открыть транзистор"
+        },
+        {
+            "command": "M200 S",
+            "parameter": true,
+            "title": "Минимальное положение"
+        },
+        {
+            "command": "M201 S",
+            "parameter": true,
+            "title": "Максимальное положение"
+        },
+        {
+            "command": "M202 S",
+            "parameter": true,
+            "title": "Максимальная ошибка"
+        },
+        {
+            "command": "M210 S",
+            "parameter": true,
+            "title": "Минимальная скорость"
+        },
+        {
+            "command": "M211 S",
+            "parameter": true,
+            "title": "Максамальная скорость"
+        },
+        {
+            "command": "M220 S",
+            "parameter": true,
+            "title": "Ускорение разгона"
+        },
+        {
+            "command": "M221 S",
+            "parameter": true,
+            "title": "Ускорение торможения"
+        },
+        {
+            "command": "M230 S",
+            "parameter": true,
+            "title": "Задержка смены направления"
+        },
+        {
+            "command": "M231 S",
+            "parameter": true,
+            "title": "Полярность направления"
+        },
+        {
+            "command": "M232 S",
+            "parameter": true,
+            "title": "Полярность датчика положения"
+        },
+        {
+            "command": "M240 S",
+            "parameter": true,
+            "title": "Режим расцепителя"
+        },
+        {
+            "command": "M241 S",
+            "parameter": true,
+            "title": "Задержка питания"
+        },
+        {
+            "command": "M100",
+            "parameter": false,
+            "title": "Текущее положение"
+        },
+        {
+            "command": "M110",
+            "parameter": false,
+            "title": "Напряжения питания"
+        },
+        {
+            "command": "M500",
+            "parameter": false,
+            "title": "Сохранить параметры"
+        },
+        {
+            "command": "M501",
+            "parameter": false,
+            "title": "Загрузить параметры"
+        },
+        {
+            "command": "M502",
+            "parameter": false,
+            "title": "Восстановить параметры"
+        },
+        {
+            "command": "M510",
+            "parameter": false,
+            "title": "Вывести параметры (RAM)"
+        },
+        {
+            "command": "M511",
+            "parameter": false,
+            "title": "Вывести параметры (EEPROM)"
+        },
+        {
+            "command": "M512",
+            "parameter": false,
+            "title": "Вывести параметры (ROM)"
+        },
+        {
+            "command": "M555",
+            "parameter": false,
+            "title": "Версия БУП"
+        },
+        {
+            "command": "M666",
+            "parameter": false,
+            "title": "Перезагрузка"
+        }
+    ]
+}
